@@ -1,0 +1,5 @@
+azure-functions
+azure-data-tables
+scikit-learn
+joblib
+numpy

@@ -1,0 +1,23 @@
+{
+  "features": [
+    "mq6",
+    "temperature",
+    "humidity",
+    "hour",
+    "aqi_rise_rate",
+    "mq135_rolling_mean",
+    "mq135_rolling_std",
+    "mq6_rolling_mean",
+    "temp_rolling_mean"
+  ],
+  "target": "fan_tier",
+  "classes": {
+    "0": "Normal",
+    "1": "Warning",
+    "2": "Critical",
+    "3": "Hazardous"
+  },
+  "thresholds_note": "Relative to MQ sensor output range. Prototype only. Not DOSH ppm.",
+  "cv_mean_f1": 0.9124442711949887,
+  "cv_std_f1": 0.0014785173505537537
+}
