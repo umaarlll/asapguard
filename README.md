@@ -146,6 +146,7 @@ See [grafana-telegram-handoff.md](grafana-telegram-handoff.md) for the complete 
 - [Full engineering handoff](asapguard-full-handoff-2026-07-21.md)
 - [Lecture-room runbook](lecture-room-runbook.md)
 - [Grafana and Telegram handoff](grafana-telegram-handoff.md)
+- [Logistic Regression ML integration guide](logistic-regression-ml-guide.md)
 
 ## Contributions
 
