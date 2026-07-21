@@ -1,0 +1,17 @@
+{
+  "name": "asapguard-telemetry-api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@azure/identity": "^4.11.1",
+    "@azure/storage-blob": "^12.28.0"
+  }
+}

@@ -1,2 +1,22 @@
 *.pkl
 local.settings.json
+
+# Node/API build and local configuration
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+coverage/
+*.log
+
+# Raw telemetry and temporary build/deployment artifacts
+data/raw/
+*.malformed-backup.*
+.build-validation/
+.deploy-temp/
+.azure-log-temp/
+
+# Private firmware/cloud configuration must never be committed.
+iot_configs.h
+**/iot_configs.h
