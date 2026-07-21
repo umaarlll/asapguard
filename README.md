@@ -149,4 +149,13 @@ See [grafana-telegram-handoff.md](grafana-telegram-handoff.md) for the complete 
 
 ## Contributions
 
-This repository contains the integrated AsapGuard prototype. Hardware integration, predictive firmware, Azure telemetry, and the public API were developed as part of the main embedded/cloud work. Grafana dashboard and Telegram alert configuration were completed as a team integration. Add teammate names and precise contribution credits before presenting the repository publicly.
+AsapGuard was completed as a four-person team project:
+
+| Team member | Responsibility |
+|---|---|
+| **UMAR ABDUL AZIZ BIN MOHAMAD HISWANDY** | Azure connectivity |
+| **ZULZAMIL MUSTAQIM BIN ZULKAFLI** | Hardware installation |
+| **MUHAMMAD FAKHURRAZI BIN YAHAYA** | Grafana dashboard and Telegram notifications |
+| **MUHAMMAD FAREEZ ILHAN BIN SAPRIN** | Quality assurance, miniature construction, and safety |
+
+Each area was integrated into the completed ESP32, Azure, Grafana, and Telegram demonstration system documented in this repository.
